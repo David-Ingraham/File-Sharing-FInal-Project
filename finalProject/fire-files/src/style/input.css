@@ -1,0 +1,80 @@
+/* src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.login-container {
+  @apply flex items-center justify-center min-h-screen;
+}
+
+.login-card {
+  @apply bg-white shadow-lg rounded-lg p-8 max-w-md w-full;
+}
+
+.login-title {
+  @apply text-2xl font-semibold text-gray-800 mb-6 text-center;
+}
+
+.input-field {
+  @apply w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.button-primary {
+  @apply w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition duration-200;
+}
+
+.toggle-button {
+  @apply text-blue-500 hover:underline mt-4 text-center;
+}
+
+.home-container {
+  @apply p-6;
+}
+
+.header {
+  @apply flex items-center justify-between py-4 px-6 bg-white shadow-md mb-8;
+}
+
+.header-title {
+  @apply text-2xl font-bold text-gray-800;
+}
+
+.logout-button {
+  @apply bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 transition duration-200;
+}
+
+.upload-section {
+  @apply bg-white p-6 rounded-lg shadow-md mb-8;
+}
+
+.upload-title {
+  @apply text-xl font-semibold text-gray-800 mb-4;
+}
+
+.file-input {
+  @apply mb-4;
+}
+
+.upload-button {
+  @apply bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition duration-200;
+}
+
+.files-list {
+  @apply bg-white p-6 rounded-lg shadow-md;
+}
+
+.file-item {
+  @apply border-b border-gray-200 py-2;
+}
+
+.file-link {
+  @apply text-blue-500 hover:underline;
+}
+
+.file-info {
+  @apply text-gray-600 text-sm;
+}
