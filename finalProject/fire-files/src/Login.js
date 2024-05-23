@@ -5,7 +5,7 @@ import {
   createUserWithEmailAndPassword,
 } from "firebase/auth";
 import { auth } from "./firebase";
-import "./style/style.css"; // Import the styles
+import "./style/dark-style.css";
 
 function Login() {
   const [email, setEmail] = useState("");

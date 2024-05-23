@@ -1,4 +1,3 @@
-// src/Home.js
 import React, { useState, useEffect } from "react";
 import { storage, auth } from "./firebase";
 import {
@@ -10,6 +9,7 @@ import {
   updateMetadata,
 } from "firebase/storage";
 import { signOut } from "firebase/auth";
+import "./style/dark-style.css";
 
 function Home({ user }) {
   const [file, setFile] = useState(null);
